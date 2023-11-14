@@ -1,0 +1,105 @@
+/*GLOBAL STYLING*/
+
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  margin-top: 25px;
+  padding-top: 10px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    margin: 10px;
+}
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+.head-section {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+/*STYLING FOR SMALL DEVICES (MOBILE DEVICES)*/
+
+
+/*END OF MOBILE STYLING*/
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.fa{
+    padding:20px;
+    font-size: 20px;
+    width:25px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.fa-facebook{
+    background-color: blue;
+    color: #f0f0f0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.fa-github {
+    background-color: #333;
+    color: #ffff;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .fa-linkedin {
+    background-color: #333;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
