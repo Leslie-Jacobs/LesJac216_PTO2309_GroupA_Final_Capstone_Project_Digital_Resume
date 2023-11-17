@@ -13,4 +13,4 @@ Skills: HTML / CSS/ Figma
 In this project a cloud-based design tool is used such as Figma
 Below is a link to my wire-frame
 
-https://www.figma.com/file/vH5rhLZnxW2RcvoocWG5a5/LeslieJacobs_lesjac216_PTO2309_GroupA_ITW9_Final_Digital_Resume_WireFrame_Figma?type=design&node-id=0%3A1&mode=design&t=PdYk04RPTwAAhWu9-1
+https://www.figma.com/file/vH5rhLZnxW2RcvoocWG5a5/LeslieJacobs_lesjac216_PTO2309_GroupA_ITW9_Final_CapStone_Project__Figmadraft?type=design&node-id=0%3A1&mode=design&t=qXbAOnfHDeEWnPUQ-1

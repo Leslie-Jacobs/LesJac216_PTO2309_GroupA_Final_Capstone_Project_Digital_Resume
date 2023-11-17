@@ -1,8 +1,7 @@
-
 body {
   font-family: "Roboto Condensed", sans-serif;
-  margin: 0;}
-
+  margin: 0;
+}
 
 hr {
   border: 0;
@@ -53,13 +52,12 @@ nav a:hover {
   color: #000;
   border-bottom: #fcc918 4px solid;
   transition: 0.2s;
-
 }
 
 /*================================END NAVIGATION SECTION==========================================*/
 /*==================================HEADER SECTION================================================*/
 .name {
-  font-family: 'Adamina';
+  font-family: "Adamina";
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 50px;
@@ -68,8 +66,6 @@ nav a:hover {
   float: right;
   margin-top: -50px;
   display: inline;
-
-
 }
 
 .name {
@@ -127,14 +123,13 @@ nav a:hover {
   flex-wrap: wrap;
   width: 50%;
   text-align: justify;
-
 }
-.profile-info h2{
+.profile-info h2 {
   color: black;
   font-weight: bolder;
   font-size: 20px;
 }
-.profile-info h3{
+.profile-info h3 {
   font-size: 18px;
 }
 
@@ -148,7 +143,6 @@ nav a:hover {
 }
 
 img {
-
   width: 250px;
   position: relative;
   z-index: 0;
@@ -164,15 +158,15 @@ img {
   padding-left: 30px;
   line-height: 1.5;
 }
-.experience-section h2{
+.experience-section h2 {
   color: #000;
-  margin-left: 10px;
+  margin-left: 100px;
   background-color: #fff;
   border-radius: 20px;
   text-transform: uppercase;
 }
 
-ul li{
+ul li {
   list-style: square;
   padding: 0px;
   padding-bottom: 10px;
@@ -182,28 +176,27 @@ ul li{
 .education-section {
   text-align: justify;
 }
-.education-section h2{
-  color:#fff;
-  margin-left: 10px;
- text-transform: uppercase;
+.education-section h2 {
+  color: #fff;
+  margin-left: 100px;
+  text-transform: uppercase;
   background-color: #000;
 }
 /*===================================SKILLS CONTAINER===================================*/
 
 .skills-section {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   background-color: #000;
   border: #000 1px solid;
 }
-.skills-section h2{
+.skills-section h2 {
   margin-top: -10px;
-  margin-left: 20px;
+  margin-left: 100px;
   color: #000;
-background-color: #fff;
-border-radius: 20px;
-text-transform: uppercase;
-
+  background-color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 .customer-service-skill {
   width: 90%;
@@ -225,37 +218,35 @@ text-transform: uppercase;
   width: 75%;
 }
 
-
 .skill {
   background-color: #fcc918;
 }
-.container{
+.container {
   color: #000;
-    width: 40%;
-    background-color: #ddd;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 15px;
+  width: 40%;
+  background-color: #ddd;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px;
 }
-.software-skills{
-  margin-left:80px ;
+.software-skills {
+  margin-left: 80px;
   position: relative;
-  left:200%;
-  top:-200%;
+  left: 200%;
+  top: -200%;
   color: #fff;
   border: #fcc918 2px solid;
   border-radius: 32px 60px;
   font-size: larger;
-
 }
-.software-skills h3{
+.software-skills h3 {
   font-size: 20px;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
 /*================================END SKILLS STYLING==================================*/
 /*==============================================END MAIN SECTION=================================================*/
 /*==============================================-----------------================================================*/
-
 
 /*==============================================FOOTER SECTION=================================================*/
 
@@ -290,24 +281,24 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
-.contact-form input, textarea {
+.contact-form input,
+textarea {
   background-color: #333;
   color: #fff;
   border: none;
   border-bottom: 1px solid #fcc918;
   padding: 5px;
 }
-.contact-form h2{
+.contact-form h2 {
   color: #333;
 }
-.contact-info h2{
-color: #333;
+.contact-info h2 {
+  color: #333;
 }
-.contact-info p{
+.contact-info p {
   font-size: 15px;
-
 }
-.socials h2{
+.socials h2 {
   color: #333;
 }
 
@@ -326,36 +317,29 @@ color: #333;
 
 .fa-facebook {
   color: #fff;
-
 }
 
 .fa-github {
   color: #ffff;
-
 }
 .fa-linkedin {
   color: #fff;
-
 }
 
 section {
   padding: 20px;
 }
 
-
 h2 {
   text-align: center;
   padding: 10px;
-  margin:0px; 
+  margin: 0px;
   background-color: #fcc918;
   width: 50%;
- 
 }
 
-
-
-.contact-form input, textarea {
-
+.contact-form input,
+textarea {
   width: 250px;
 }
 
@@ -374,19 +358,18 @@ h2 {
   color: #333;
   border: 1px solid #333;
 }
-
-
+/*=====================================END FOOTER==============================*/
 /*-------------------------------------------
 ----------------------------------
 STYLING FOR SMALL DEVICES (MOBILE DEVICES)
 ----------------------------------
 ------------------------------------------*/
-@media only screen and (max-width:600px)and (min-width:320px) {
+@media only screen and (max-width: 600px) and (min-width: 320px) {
   header {
     font-size: 15px;
   }
 
-  h2, h3 {
+  h2,h3 {
     font-size: 15px;
     text-align: center;
     width: 90%;
@@ -424,7 +407,6 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
     /* width: 200px;
     height: 200px; */
     position: relative;
-
   }
 
   .profile-info h3 {
@@ -440,19 +422,16 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
     grid-template-columns: 1fr;
   }
 
-
   main {
     display: grid;
     grid-template-columns: 1fr;
   }
 
   .experience-section {
-
     /* padding-left: 50px; */
     border-right: none;
     width: 100%;
   }
-
 
   .education-section {
     padding-right: 0px;
@@ -476,7 +455,6 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
     margin-left: 110px;
   }
 
-
   .skills-section ul {
     list-style: none;
     text-align: center;
@@ -489,171 +467,160 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
   .footer-column {
     text-align: center;
   }
-
-
-
 }
 
-/*END OF MOBILE STYLING*/
-
-
+/*===============================END OF MOBILE STYLING================================*/
 
 /*-------------------------------------------
 ----------------------------------
-STYLING FOR MEDIUM DEVICES (TABLETS)
+=======================================STYLING FOR MEDIUM DEVICES (TABLETS)===================
 ----------------------------------
 ------------------------------------------*/
-@media only screen and (max-width:768px)and (min-width:600px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
 
-
-
+header {
+  font-size: 15px;
 }
-  header {
-    font-size: 15px;
+
+h2,
+h3 {
+  font-size: 15px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+footer {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+}
+@media only screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #000;
+    color: white;
   }
 
-  h2, h3 {
-    font-size: 15px;
+  .profile-pic {
+    outline: 3px solid #fcc918;
+    outline-offset: -100px;
+    border: 10px solid transparent;
+    border-width: 120px 50px 50px 120px;
+    width: 400px;
+    z-index: 0;
+  }
+
+  img {
+    width: 400px;
+    position: relative;
+  }
+
+  .profile-info {
+    width: 80%;
+    margin-top: 150px;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    padding-right: 100px;
   }
 
-  h4 {
-    font-size: 15px;
+  #name {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .profile-info h2 {
+    text-align: center;
+    width: 50%;
+    margin-left: 150px;
+  }
+
+  .profile-info h3 {
     text-align: center;
     font-weight: lighter;
   }
 
-  footer {
-    grid-template-columns: 1fr;
-    width: 100%;
+  .profile-info br {
+    display: none;
   }
 
-  @media only screen and (min-width: 768px) {
-    .hero {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-
-      background-color: #000;
-      color: white;
-    }
-
-    .profile-pic {
-      outline: 3px solid #fcc918;
-      outline-offset: -100px;
-      border: 10px solid transparent;
-      border-width: 120px 50px 50px 120px;
-      width: 400px;
-      z-index: 0;
-    }
-
-    img {
-      width: 400px;
-      position: relative;
-
-    }
-
-    .profile-info {
-      width: 80%;
-      margin-top: 150px;
-      text-align: center;
-      ;
-      padding-right: 100px;
-    }
-
-    #name {
-      text-align: center;
-      padding: 0px;
-      margin: 0px;
-    }
-
-    .profile-info h2 {
-      text-align: center;
-      width: 50%;
-      margin-left: 150px;
-    }
-
-    .profile-info h3 {
-      text-align: center;
-      font-weight: lighter;
-    }
-
-    .profile-info br {
-      display: none;
-    }
-
-
-    main {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      padding: 20px;
-    }
-
-    section h2 {
-      text-align: center;
-      margin-bottom: 10px;
-      margin-left: 100px;
-    }
-
-
-    section {
-      border: 1px solid #ccc;
-      padding: 50px;
-      border-radius: 5px;
-
-    }
-
-    .experience-section, h2, h3, h4 {
-      text-align: center;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    .education-section {
-      text-align: center;
-    }
-
-    .skills-section h2 {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    .skills-section {
-      display: flex;
-      flex-direction: column;
-      background-color: #000;
-      border-radius: 70px 32px;
-      color: #fff;
-      text-align: justify;
-      padding-left: 30px;
-    }
-
-    .skills-section div {
-      text-align: center;
-
-    }
-
-    .skills-section div .container {
-      margin-left: 150px;
-    }
-
-    .skills-section hr {
-      display: none;
-
-    }
-
-    .skills-section ul {
-      list-style: none;
-      text-align: center;
-    }
-
-    .footer-column {
-      text-align: center;
-    }
-
-    .footer-column h2 {
-      margin-left: 110px;
-    }
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
   }
+
+  section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+
+  section {
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 5px;
+  }
+
+  .experience-section,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .education-section {
+    text-align: center;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border-radius: 70px 32px;
+    color: #fff;
+    text-align: justify;
+    padding-left: 30px;
+  }
+
+  .skills-section div {
+    text-align: center;
+  }
+
+  .skills-section div .container {
+    margin-left: 150px;
+  }
+
+  .skills-section hr {
+    display: none;
+  }
+
+  .skills-section ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-column h2 {
+    margin-left: 110px;
+  }
+}
