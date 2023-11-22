@@ -20,7 +20,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  position: fixed;
   z-index: 1;
 }
 
@@ -63,7 +62,6 @@ nav a:hover {
   font-size: 50px;
   padding: 30px;
   margin: 10px;
-  float: right;
   margin-top: -50px;
   display: inline;
 }
@@ -154,13 +152,12 @@ img {
   background-color: #000;
   color: #fff;
   text-align: justify;
-  margin-left: 10px;
-  padding-left: 30px;
+
   line-height: 1.5;
 }
 .experience-section h2 {
   color: #000;
-  margin-left: 100px;
+
   background-color: #fff;
   border-radius: 20px;
   text-transform: uppercase;
@@ -178,7 +175,7 @@ ul li {
 }
 .education-section h2 {
   color: #fff;
-  margin-left: 100px;
+
   text-transform: uppercase;
   background-color: #000;
 }
@@ -192,7 +189,7 @@ ul li {
 }
 .skills-section h2 {
   margin-top: -10px;
-  margin-left: 100px;
+
   color: #000;
   background-color: #fff;
   border-radius: 20px;
@@ -230,11 +227,10 @@ ul li {
   font-size: 15px;
 }
 .software-skills {
-  margin-left: 80px;
+
   position: relative;
-  left: 200%;
-  top: -200%;
-  color: #fff;
+
+  
   border: #fcc918 2px solid;
   border-radius: 32px 60px;
   font-size: larger;
@@ -368,12 +364,15 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
   header {
     font-size: 15px;
   }
+  h1{
+    text-align: center;
+  }
+
 
   h2,h3 {
     font-size: 15px;
     text-align: center;
     width: 90%;
-    margin: auto;
   }
 
   h4 {
@@ -381,7 +380,14 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
     text-align: center;
     font-weight: lighter;
   }
-
+  .navbar-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    
+  }
   footer {
     grid-template-columns: 1fr;
     width: 100%;
@@ -389,14 +395,12 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
 
   section {
     padding: 40px;
-    width: 100%;
   }
 
   #name {
     /* font-size: 25px; */
     font-weight: bolder;
     padding: 0px;
-    margin: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
@@ -416,8 +420,7 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
 
   .profile-info {
     width: 100%;
-    /* padding-left: 50px; */
-    padding-right: 50px;
+  
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -428,23 +431,19 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
   }
 
   .experience-section {
-    /* padding-left: 50px; */
+
     border-right: none;
     width: 100%;
   }
 
   .education-section {
-    padding-right: 0px;
-    margin-right: 0px;
-    border-left: none;
-    margin-left: 10px;
-    padding-left: 30px;
-  }
+width:100%;}
 
   .skills-section {
     background-color: white;
     grid-template-columns: 1fr;
     text-align: center;
+    width:100%;
   }
 
   .skills-section div {
@@ -457,10 +456,6 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
 
   .skills-section ul {
     list-style: none;
-    text-align: center;
-  }
-
-  .references {
     text-align: center;
   }
 
@@ -477,17 +472,56 @@ STYLING FOR SMALL DEVICES (MOBILE DEVICES)
 ----------------------------------
 ------------------------------------------*/
 @media only screen and (max-width: 768px) and (min-width: 600px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+    color: white;
+    width: auto;
+  }
 
 header {
   font-size: 15px;
 }
+img{
+  padding-top:50px;
+}
+.profile-pic{
+  z-index: 0;
+  outline: 3px solid #fcc918;
+  outline-offset: -80px;
+  border: 10px solid transparent;
+  border-width: 120px 50px 50px 120px;
+  width: 300px;
+}
+.profile-info{
+  padding-top:100px;
+  text-align: center;
+}
+.software-skills{
+  color: white;
+}
+p {
+  color: #fff;
+}
 
-h2,
-h3 {
+h2,h3 {
   font-size: 15px;
   text-align: center;
   width: 90%;
   margin: auto;
+}
+
+.experience-section h2{
+  text-align: center;
+  margin-left:0;
+}
+.education-section h2{
+  text-align: center;
+  margin-left:0;
+}
+.skills-section h2{
+  margin-left:0;
 }
 
 h4 {
@@ -497,35 +531,37 @@ h4 {
 }
 
 footer {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
 }
+/*=======================================================================================*/
+/*===========================STYLING FOR DESKTOP/LAPTOP DEVICES=========================*/
+/*========================================================================================*/
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     background-color: #000;
     color: white;
-  }
+   }
 
   .profile-pic {
     outline: 3px solid #fcc918;
-    outline-offset: -100px;
+    outline-offset: -130px;
     border: 10px solid transparent;
-    border-width: 120px 50px 50px 120px;
+    border-width: 150px 50px 50px 120px;
     width: 400px;
     z-index: 0;
   }
 
   img {
-    width: 400px;
+    width: 300px;
     position: relative;
   }
 
   .profile-info {
-    width: 80%;
+    width:100%;
     margin-top: 150px;
     text-align: center;
     padding-right: 100px;
@@ -610,6 +646,8 @@ footer {
   .skills-section hr {
     display: none;
   }
+
+
 
   .skills-section ul {
     list-style: none;
